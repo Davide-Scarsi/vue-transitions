@@ -2,8 +2,9 @@ $primary: rgb(56, 55, 55);
 
 // Mixins
 
-@mixin flex{
+@mixin flex($direction: row){
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: $direction;
 }

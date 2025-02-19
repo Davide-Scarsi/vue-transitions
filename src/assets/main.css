@@ -1,6 +1,4 @@
 @import "tailwindcss";
-
-@import './global.scss';
 @import './base.css';
 
 *{

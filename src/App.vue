@@ -22,17 +22,15 @@
 <style lang="scss">
 
     .template{
-        @include flex;
+        @include flex($direction: column);
 
         background-color: $primary;
         height: 100svh;
-        flex-direction: column;
     }
 
     .img-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flex();
+
         height: 500px;
         outline: 2px solid yellow;
     }
