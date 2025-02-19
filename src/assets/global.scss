@@ -1,0 +1,9 @@
+$primary: rgb(56, 55, 55);
+
+// Mixins
+
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

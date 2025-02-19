@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@import './global.scss';
+@import './base.css';
+
+*{
+  color: white;
+}
+
+body{
+  background-color: rgb(37, 36, 36);
+}
